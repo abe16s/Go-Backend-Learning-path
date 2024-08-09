@@ -1,4 +1,4 @@
-[Postman documetation] (https://documenter.getpostman.com/view/32032637/2sA3s3GAhh)
+[Postman documetation](https://documenter.getpostman.com/view/32032637/2sA3s3GAhh)
 
 ## GET - GetAllTasks
 
