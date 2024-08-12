@@ -45,7 +45,7 @@ func main() {
 	collection := client.Database("test").Collection("trainers")
 
   indexModel := mongo.IndexModel{
-    Keys:    bson.D{{Key: "email", Value: true}}, // Create index on the "email" field
+    Keys:    bson.D{{Key: "email", Value: 1}}, // Create index on the "email" field
     Options: options.Index().SetUnique(true),    // Ensure the index is unique
 }
 
